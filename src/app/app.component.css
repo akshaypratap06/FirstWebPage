@@ -1,0 +1,35 @@
+.main {
+  position: relative;
+  background-image: url("https://www.tlcinteriors.com.au/wp-content/uploads/2023/06/geelong-interior-design-open-plan-modern-coastal-living-dining-room-with-white-sheer-curtains.jpg");
+  height: 400px;
+}
+
+.imgfit {
+  width: 100%; /* Scale the image to the container width */
+  height: 100%; /* Maintain the image's aspect ratio */
+  object-fit: cover; /* Ensures the image covers the container fully */
+  object-position: center; /* Center the image in the container */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+  text-align: center;
+}
+
+.flexCenter {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+p {
+  margin: 25px;
+}
+
+h5 {
+  margin: 25px;
+}
